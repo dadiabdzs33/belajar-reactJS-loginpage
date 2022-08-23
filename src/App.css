@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.containerloginpage {
+  width: auto;
+  height: 643px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 33px;
+  justify-content: center;
+  color: #176cb0;
+}
+
+.containerloginpage h1 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.Formlogin {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 280px;
+  background-color: white;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 15px;
+
+}
+
+.Formlogin h1 {
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  padding-left: 15px;
+  color: black;
+  margin: 5px 0 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 25px;
+  background-color: #176cb0;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
